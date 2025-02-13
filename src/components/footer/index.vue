@@ -33,13 +33,13 @@
           fill="#878787" />
       </svg>
     </a>
-    <a href="static/xmxe.html" title="静态简历" :target="target" v-show="isEnd">
+    <!-- <a href="static/xmxe.html" title="静态简历" :target="target" v-show="isEnd">
       <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="6" y="6" width="36" height="36" rx="3" stroke="#878787" stroke-width="4" stroke-linejoin="round" />
         <path d="M6 17H42" stroke="#878787" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
         <path d="M17 42V17" stroke="#878787" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
-    </a>
+    </a> -->
     <a href="javascript:;" title="微信" v-show="isEnd" @mouseenter="qrcodeShow = !qrcodeShow"
       @mouseleave="qrcodeShow = !qrcodeShow">
       <svg width="24" height="24" class="icon" viewBox="0 0 340 195" xmlns="http://www.w3.org/2000/svg">
